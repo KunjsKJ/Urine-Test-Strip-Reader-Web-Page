@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Information - Urine Test Strip Reader</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f8f9;
+            color: #263740;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #173b52, #1f718f);
+            color: white;
+            padding: 18px 7%;
+        }
+        .header-content {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .logo {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            color: #1f718f;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+        header p {
+            margin: 2px 0;
+            color: #dcecf0;
+            font-size: 13px;
+        }
+        nav {
+            max-width: 1100px;
+            margin: 16px auto 0;
+            text-align: right;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 22px;
+            font-size: 14px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 45px 7%;
+        }
+        .page-intro {
+            background-color: white;
+            padding: 32px;
+            border-radius: 15px;
+            border: 1px solid #d8e4e7;
+            box-shadow: 0 7px 18px rgba(23, 59, 82, 0.05);
+        }
+        .tag {
+            color: #19a19d;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+        }
+        .page-intro h2 {
+            color: #173b52;
+            font-size: 34px;
+            line-height: 1.2;
+        }
+        .page-intro p {
+            color: #667982;
+        }
+        .parameter-section {
+            margin-top: 30px;
+        }
+        .section-heading {
+            color: #173b52;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            border: 1px solid #d8e4e7;
+        }
+        th {
+            background-color: #eaf5f7;
+            color: #173b52;
+            font-weight: bold;
+        }
+        th,
+        td {
+            padding: 14px;
+            text-align: left;
+            border-bottom: 1px solid #d8e4e7;
+        }
+        tr:hover {
+            background-color: #f7fbfb;
+        }
+        abbr {
+            text-decoration: underline dotted;
+            cursor: help;
+        }
+        .text-level {
+            background-color: white;
+            padding: 28px;
+            margin-top: 28px;
+            border-radius: 15px;
+            border: 1px solid #d8e4e7;
+        }
+        .text-level h2 {
+            color: #173b52;
+        }
+        .text-level p {
+            color: #667982;
+        }
+        strong {
+            color: #173b52;
+        }
+        em {
+            color: #1f718f;
+        }
+        mark {
+            background-color: #ffe59b;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        .disclaimer {
+            margin-top: 22px;
+            padding: 16px 20px;
+            background-color: #fff5d9;
+            border-left: 5px solid #dfa300;
+            border-radius: 8px;
+        }
+        .disclaimer small {
+            color: #5f522c;
+        }
+    </style>
+</head>
+<body id="test-information-page">
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                UT
+            </div>
+            <div>
+                <h1>
+                    Urine Test Strip Reader System
+                </h1>
+                <p>
+                    Diagnostic Screening & Result Interpretation Portal
+                </p>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">
+                Home
+            </a>
+            <a href="test-information.html">
+                Test Information
+            </a>
+            <a href="about-system.html">
+                About System
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="page-intro">
+            <span class="tag">
+                TEST INFORMATION
+            </span>
+            <h2>
+                Urine Test Strip Diagnostic Parameters
+            </h2>
+            <p>
+                A urine reagent strip contains several
+                chemically treated pads. Each pad reacts
+                with specific components present in the
+                urine sample.
+            </p>
+            <p>
+                The reader system organizes these observations
+                into a structured format for laboratory
+                screening and academic demonstration.
+            </p>
+        </section>
+        <section class="parameter-section">
+            <h2 class="section-heading">
+                Important Test Parameters
+            </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Parameter
+                        </th>
+                        <th>
+                            Purpose
+                        </th>
+                        <th>
+                            Unit
+                        </th>
+                        <th>
+                            Abbreviation
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Glucose</strong>
+                        </td>
+                        <td>
+                            Indicates the presence of
+                            glucose in urine.
+                        </td>
+                        <td>
+                            mg/dL
+                        </td>
+                        <td>
+                            <abbr title="Glucose">
+                                GLU
+                            </abbr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Protein</strong>
+                        </td>
+                        <td>
+                            Helps identify protein
+                            levels in urine.
+                        </td>
+                        <td>
+                            mg/dL
+                        </td>
+                        <td>
+                            <abbr title="Protein">
+                                PRO
+                            </abbr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Blood</strong>
+                        </td>
+                        <td>
+                            Detects blood-related
+                            indicators.
+                        </td>
+                        <td>
+                            Qualitative
+                        </td>
+                        <td>
+                            <abbr title="Blood">
+                                BLD
+                            </abbr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>pH</strong>
+                        </td>
+                        <td>
+                            Indicates the acidity or
+                            alkalinity of urine.
+                        </td>
+                        <td>
+                            pH
+                        </td>
+                        <td>
+                            <abbr title="Potential of Hydrogen">
+                                pH
+                            </abbr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Specific Gravity</strong>
+                        </td>
+                        <td>
+                            Provides information about
+                            urine concentration.
+                        </td>
+                        <td>
+                            Ratio
+                        </td>
+                        <td>
+                            <abbr title="Specific Gravity">
+                                SG
+                            </abbr>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="text-level">
+            <h2>
+                Diagnostic Process
+            </h2>
+            <p>
+                The test strip is first immersed in the
+                urine sample. After the required reaction
+                time, the reagent pads are evaluated by
+                the reader system.
+            </p>
+            <p>
+                <strong>Important parameters</strong>
+                are highlighted during result
+                interpretation, while
+                <mark>abnormal observations</mark>
+                can be reviewed separately.
+            </p>
+            <p>
+                Chemical measurements may be represented
+                using <strong>mg/dL</strong>, while
+                parameters such as <em>pH</em> are
+                represented using their respective scales.
+            </p>
+            <p>
+                Common medical abbreviations include
+                <abbr title="Urobilinogen">URO</abbr>,
+                <abbr title="Red Blood Cells">RBC</abbr>,
+                <abbr title="White Blood Cells">WBC</abbr>,
+                <abbr title="Blood">BLD</abbr> and
+                <abbr title="Specific Gravity">SG</abbr>.
+            </p>
+        </section>
+        <div class="disclaimer">
+            <small>
+                <strong>Medical Disclaimer:</strong>
+                This educational system is intended for
+                laboratory demonstration and learning
+                purposes. Test-strip readings should not
+                be considered a standalone medical diagnosis.
+            </small>
+        </div>
+    </main>
+</body>
+</html>

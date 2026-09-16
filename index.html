@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urine Test Strip Reader System</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f8f9;
+            color: #263740;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #173b52, #1f718f);
+            color: white;
+            padding: 18px 7%;
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .logo {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            color: #1f718f;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        header p {
+            margin: 2px 0;
+            color: #dcecf0;
+            font-size: 13px;
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: 16px auto 0;
+            text-align: right;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 22px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 7%;
+        }
+
+        .hero {
+            max-width: 850px;
+            margin: auto;
+            border-radius: 16px;
+            background-image: url("urine-bg.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero-text {
+            background-color: rgb(255 255 255 / 62%);
+            padding: 40px;
+            border: 1px solid #d8e4e7;
+            border-radius: 16px;
+            box-shadow: 0 8px 22px rgba(23, 59, 82, 0.07);
+        }
+
+        .tag {
+            color: #19a19d;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+        }
+
+        .hero-text h2 {
+            font-size: 38px;
+            color: #173b52;
+            line-height: 1.2;
+            margin: 12px 0 18px;
+        }
+
+        .hero-text p {
+            color: #667982;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 11px 18px;
+            background-color: #19a19d;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #147f7d;
+        }
+
+        mark {
+            background-color: #ffe59b;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        .section-heading {
+            color: #173b52;
+            margin-top: 45px;
+            margin-bottom: 15px;
+        }
+
+        .feature-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .feature-card {
+            background-color: white;
+            padding: 23px;
+            border: 1px solid #d8e4e7;
+            border-radius: 14px;
+            transition: 0.2s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 18px rgba(23, 59, 82, 0.08);
+        }
+
+        .feature-icon {
+            color: #19a19d;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .feature-card h3 {
+            color: #173b52;
+        }
+
+        .feature-card p {
+            color: #667982;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body id="home-page">
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                UT
+            </div>
+            <div>
+                <h1>
+                    Urine Test Strip Reader System
+                </h1>
+                <p>
+                    Diagnostic Screening & Result Interpretation Portal
+                </p>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">
+                Home
+            </a>
+            <a href="test-information.html">
+                Test Information
+            </a>
+            <a href="about-system.html">
+                About System
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <span class="tag">
+                    LABORATORY TECHNOLOGY
+                </span>
+                <h2>
+                    Urine Test Strip Reader System
+                </h2>
+                <p>
+                    A digital system designed to assist in reading
+                    and organizing urine test strip parameters
+                    for laboratory screening and academic
+                    demonstration.
+                </p>
+                <p>
+                    The system provides a structured interface for
+                    <strong>test observation</strong>,
+                    <strong>parameter analysis</strong> and
+                    <mark>result reporting</mark>.
+                </p>
+                <a class="button" href="test-information.html">
+                    View Test Information
+                </a>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-heading">
+                System Features
+            </h2>
+            <div class="feature-container">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        01
+                    </div>
+                    <h3>
+                        Strip Reading
+                    </h3>
+                    <p>
+                        Organizes observations obtained from
+                        multiple reagent pads on a urine
+                        test strip.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        02
+                    </div>
+                    <h3>
+                        Parameter Analysis
+                    </h3>
+                    <p>
+                        Presents important urine parameters
+                        in a structured and easy-to-read format.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        03
+                    </div>
+                    <h3>
+                        Result Reporting
+                    </h3>
+                    <p>
+                        Helps maintain consistent presentation
+                        of screening results for review.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Featured Items</h2>
+
+            <img src="image1.jpg" alt="Test Strip">
+            <img src="image2.webp" alt="Urine Test">
+            <img src="image3.jpeg" alt="Test Reader">
+        </section>
+    </main>
+    </body>
+</html>

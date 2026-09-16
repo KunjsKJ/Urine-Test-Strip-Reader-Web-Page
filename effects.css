@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f9;
+    color: #263740;
+}
+
+header {
+    background-color: #173b52;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    color: #dcecf0;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.offer {
+    width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+
+    background-color: #ffe59b;
+
+    color: #173b52;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 15px rgba(255, 180, 0, 0.7);
+
+    text-shadow: 1px 1px 2px white;
+
+    animation: glow 1.5s infinite alternate;
+}
+
+.offer-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+@keyframes glow {
+
+    from {
+        box-shadow: 0 0 5px rgba(255, 180, 0, 0.5);
+    }
+
+    to {
+        box-shadow: 0 0 25px rgba(255, 140, 0, 1);
+    }
+
+}
